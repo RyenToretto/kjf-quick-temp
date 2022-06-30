@@ -58,7 +58,7 @@ export default {
     APP_STATISTICS.page_hide(this)
   },
   toPage() {
-    $utils.route2theUrl('pages/About')
+    $utils.route2theUrl('/pages/About')
   }
 }
 </script>

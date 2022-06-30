@@ -6,15 +6,33 @@
   "minPlatformVersion": 1082,
   "icon": "/assets/images/logo.png",
   "features": [
-    { "name": "system.fetch" },
-    { "name": "system.storage" },
-    { "name": "system.device" },
-    { "name": "system.network" },
-    { "name": "service.account" },
-    { "name": "system.prompt" },
-    { "name": "system.router" },
-    { "name": "system.shortcut" },
-    { "name": "system.webview" },
+    {
+      "name": "system.fetch"
+    },
+    {
+      "name": "system.storage"
+    },
+    {
+      "name": "system.device"
+    },
+    {
+      "name": "system.network"
+    },
+    {
+      "name": "service.account"
+    },
+    {
+      "name": "system.prompt"
+    },
+    {
+      "name": "system.router"
+    },
+    {
+      "name": "system.shortcut"
+    },
+    {
+      "name": "system.webview"
+    },
     {
       "name": "service.share",
       "params": {
@@ -23,7 +41,11 @@
       }
     }
   ],
-  "permissions": [{ "origin": "*" }],
+  "permissions": [
+    {
+      "origin": "*"
+    }
+  ],
   "config": {
     "logLevel": "debug",
     "designWidth": 800
@@ -32,6 +54,9 @@
     "entry": "pages/Main",
     "pages": {
       "pages/Main": {
+        "component": "index"
+      },
+      "pages/About": {
         "component": "index"
       }
     }
